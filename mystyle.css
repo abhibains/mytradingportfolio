@@ -1,0 +1,88 @@
+body{
+    font-family: "Press Start 2P",sans-serif;
+    background-color:black;
+    color: blanchedalmond;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 100;
+    background-color: rgb(28, 165, 28);
+    height:45px;
+    padding-top: 9px;
+    padding-left: 44%;
+     transition: transform;
+    transition-duration: 0.5s; 
+}
+h2:hover{
+     transform: scale(1.05); 
+
+}
+
+
+
+img{
+    border: 5px;
+    border-color: white;
+    padding-top: 0px;
+    display:flex;
+    width: 100%; 
+    border-radius: 8px;  
+    transition: transform;
+    transition-duration: 0.3s;
+}
+img:hover{
+    transform: scale(1.01);
+
+}
+.listItem{
+    transition: transform;
+    transition-duration: 0.5s;
+    padding:4px;
+   
+}
+
+.listItem:hover{
+    transform: scale(1.01);
+    background-color:blanchedalmond;
+
+}
+
+.hl{
+    color:rgb(29, 202, 81);
+}
+
+
+
+ table {
+    width:100%;
+    border: solid rgb(28, 165, 28);
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgb(142, 230, 10);
+    border-collapse: collapse;
+}
+
+.headrow{
+    background-color:lawngreen;
+    color:black;
+}
+
+.footer{
+    font-size: 10px;
+}
+
+.unorderlistItem{
+    padding:4px;
+    transition: transform;
+    transition-duration: 0.3s;
+
+}
+
+
+.unorderlistItem:hover{
+    transform: scale(1.01);
+
+}
